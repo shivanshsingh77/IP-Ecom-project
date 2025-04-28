@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LUXE - Premium Fashion Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">LUXE<span>.</span></a>
+            
+            <button class="mobile-menu-btn">☰</button>
+            
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#products">Shop</a></li>
+                    <li><a href="#products">Collections</a></li>
+                    <li><a href="#trending">Trending</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-icons">
+                <button class="icon-btn">🔍</button>
+                <button class="icon-btn">❤️</button>
+                <button class="icon-btn cart-toggle">🛒
+                    <span class="cart-count">3</span>
+                </button>
+                <button class="icon-btn">👤</button>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Discover Your Style With Premium Fashion</h1>
+                <p>Explore our new arrivals and find your perfect fit with premium quality fabrics and trendy designs that make you stand out.</p>
+                <a href="#" class="cta-btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section class="features" id="trending">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why Choose Us</h2>
+                <p>Experience the best shopping experience with our premium services</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Free Shipping</h3>
+                    <p>Free worldwide shipping on all orders over $100</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">↩️</div>
+                    <h3>Easy Returns</h3>
+                    <p>30-day free return policy for all your purchases</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure Payment</h3>
+                    <p>Multiple secure payment methods for your convenience</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">👨‍💻</div>
+                    <h3>24/7 Support</h3>
+                    <p>Round the clock customer support for your queries</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Products</h2>
+                <p>Discover our trending collections handpicked for you</p>
+            </div>
+            
+            <div class="products-filter">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">New Arrivals</button>
+                <button class="filter-btn">Best Sellers</button>
+                <button class="filter-btn">Top Rated</button>
+                <button class="filter-btn">On Sale</button>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dCUyMHNoaXJ0fGVufDB8fDB8fHww" alt="Premium Cotton T-Shirt">
+                        <div class="product-badge">New</div>
+                        <div class="product-actions">
+                            <button class="product-action-btn">❤️</button>
+                            <button class="product-action-btn">👁️</button>
+                            <button class="product-action-btn">↔️</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Men's Fashion</div>
+                        <h3 class="product-title">Premium Cotton T-Shirt</h3>
+                        <div class="product-rating">
+                            ★★★★★ <span>(32 reviews)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$49.99</span>
+                            <span class="old-price">$69.99</span>
+                        </div>
+                        <button class="add-to-cart" data-id="1">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Designer Denim Jacket">
+                        <div class="product-badge">Hot</div>
+                        <div class="product-actions">
+                            <button class="product-action-btn">❤️</button>
+                            <button class="product-action-btn">👁️</button>
+                            <button class="product-action-btn">↔️</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Men's Fashion</div>
+                        <h3 class="product-title">Designer Denim Jacket</h3>
+                        <div class="product-rating">
+                            ★★★★☆ <span>(18 reviews)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$129.99</span>
+                            <span class="old-price">$159.99</span>
+                        </div>
+                        <button class="add-to-cart" data-id="2">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1570731265906-6b63cb4d94c7?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Elegant Summer Dress">
+                        <div class="product-actions">
+                            <button class="product-action-btn">❤️</button>
+                            <button class="product-action-btn">👁️</button>
+                            <button class="product-action-btn">↔️</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Women's Fashion</div>
+                        <h3 class="product-title">Elegant Summer Dress</h3>
+                        <div class="product-rating">
+                            ★★★★★ <span>(42 reviews)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$89.99</span>
+                        </div>
+                        <button class="add-to-cart" data-id="3">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://plus.unsplash.com/premium_photo-1671028547411-12a7fb233ddd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Leather Crossbody Bag">
+                        <div class="product-badge">Sale</div>
+                        <div class="product-actions">
+                            <button class="product-action-btn">❤️</button>
+                            <button class="product-action-btn">👁️</button>
+                            <button class="product-action-btn">↔️</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Accessories</div>
+                        <h3 class="product-title">Leather Crossbody Bag</h3>
+                        <div class="product-rating">
+                            ★★★★☆ <span>(23 reviews)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$79.99</span>
+                            <span class="old-price">$119.99</span>
+                        </div>
+                        <button class="add-to-cart" data-id="4">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1738958668282-4c7446241e9e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Smart Running Shoes">
+                        <div class="product-badge">Best Seller</div>
+                        <div class="product-actions">
+                            <button class="product-action-btn">❤️</button>
+                            <button class="product-action-btn">👁️</button>
+                            <button class="product-action-btn">↔️</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Footwear</div>
+                        <h3 class="product-title">Smart Running Shoes</h3>
+                        <div class="product-rating">
+                            ★★★★★ <span>(56 reviews)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$149.99</span>
+                            <span class="old-price">$199.99</span>
+                        </div>
+                        <button class="add-to-cart" data-id="5">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1722842529599-0142d44c6fe6?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Designer Sunglasses">
+                        <div class="product-actions">
+                            <button class="product-action-btn">❤️</button>
+                            <button class="product-action-btn">👁️</button>
+                            <button class="product-action-btn">↔️</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Accessories</div>
+                        <h3 class="product-title">Designer Sunglasses</h3>
+                        <div class="product-rating">
+                            ★★★★☆ <span>(17 reviews)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$99.99</span>
+                        </div>
+                        <button class="add-to-cart" data-id="6">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 7 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://plus.unsplash.com/premium_photo-1672342860744-bd2d328f98fc?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Silk Scarf">
+                        <div class="product-badge">New</div>
+                        <div class="product-actions">
+                            <button class="product-action-btn">❤️</button>
+                            <button class="product-action-btn">👁️</button>
+                            <button class="product-action-btn">↔️</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Accessories</div>
+                        <h3 class="product-title">Luxury Silk Scarf</h3>
+                        <div class="product-rating">
+                            ★★★★★ <span>(9 reviews)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$59.99</span>
+                            <span class="old-price">$79.99</span>
+                        </div>
+                        <button class="add-to-cart" data-id="7">Add to Cart</button>
+                    </div>
+                </div>
+                
+                <!-- Product 8 -->
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="https://images.unsplash.com/photo-1719075596884-2020f827a8dd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Smart Watch">
+                        <div class="product-badge">Hot</div>
+                        <div class="product-actions">
+                            <button class="product-action-btn">❤️</button>
+                            <button class="product-action-btn">👁️</button>
+                            <button class="product-action-btn">↔️</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">Electronics</div>
+                        <h3 class="product-title">Premium Smart Watch</h3>
+                        <div class="product-rating">
+                            ★★★★☆ <span>(34 reviews)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="current-price">$199.99</span>
+                            <span class="old-price">$249.99</span>
+                        </div>
+                        <button class="add-to-cart" data-id="8">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Newsletter Section -->
+    <section class="newsletter" id="contact">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Stay updated with our latest trends and get exclusive offers directly to your inbox</p>
+            <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Enter your email address">
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer" id="about">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-column">
+                    <h3>About LUXE</h3>
+                    <p>LUXE is a premium fashion brand offering high-quality clothing and accessories for men and women. Our mission is to provide stylish and comfortable fashion for everyone.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon">📱</a>
+                        <a href="#" class="social-icon">📸</a>
+                        <a href="#" class="social-icon">🐦</a>
+                        <a href="#" class="social-icon">📘</a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Collections</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Customer Service</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li>123 Fashion Street, City, Country</li>
+                        <li>Phone: +1 234 567 890</li>
+                        <li>Email: info@luxe.com</li>
+                        <li>Mon-Fri: 9AM - 6PM</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">© 2025 LUXE. All Rights Reserved.</div>
+                <div class="payment-methods">
+                    <img src="https://images.unsplash.com/photo-1553697388-94e804e2f0f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dmlzYXxlbnwwfHwwfHx8MA%3D%3D" alt="Visa">
+                    <img src="https://images.unsplash.com/photo-1707581471193-183252f0d85b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1hc3RlcmNhcmR8ZW58MHx8MHx8fDA%3D" alt="Mastercard">
+                    <img src="https://images.unsplash.com/photo-1641350625112-3b1d73c71418?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGF5cGFsfGVufDB8fDB8fHww" alt="PayPal">
+                    <img src="https://images.unsplash.com/photo-1649734924649-b559375080b0?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Apple Pay">
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Shopping Cart -->
+    <div class="cart-popup">
+        <div class="cart-header">
+            <h2>Your Cart (3)</h2>
+            <button class="close-cart">✕</button>
+        </div>
+        
+        <div class="cart-items">
+            <!-- Cart Item 1 -->
+            <div class="cart-item">
+                <div class="cart-item-img">
+                    <img src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dCUyMHNoaXJ0fGVufDB8fDB8fHww" alt="Premium Cotton T-Shirt">
+                </div>
+                <div class="cart-item-details">
+                    <h4 class="cart-item-title">Premium Cotton T-Shirt</h4>
+                    <div class="cart-item-price">$49.99</div>
+                    <div class="cart-item-quantity">
+                        <button class="quantity-btn">-</button>
+                        <span>1</span>
+                        <button class="quantity-btn">+</button>
+                    </div>
+                </div>
+                <button class="cart-item-remove">✕</button>
+            </div>
+            
+            <!-- Cart Item 2 -->
+            <div class="cart-item">
+                <div class="cart-item-img">
+                    <img src="https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Designer Denim Jacket">
+                </div>
+                <div class="cart-item-details">
+                    <h4 class="cart-item-title">Designer Denim Jacket</h4>
+                    <div class="cart-item-price">$129.99</div>
+                    <div class="cart-item-quantity">
+                        <button class="quantity-btn">-</button>
+                        <span>1</span>
+                        <button class="quantity-btn">+</button>
+                    </div>
+                </div>
+                <button class="cart-item-remove">✕</button>
+            </div>
+            
+            <!-- Cart Item 3 -->
+            <div class="cart-item">
+                <div class="cart-item-img">
+                    <img src="https://plus.unsplash.com/premium_photo-1671028547411-12a7fb233ddd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                    " alt="Leather Crossbody Bag">
+                </div>
+                <div class="cart-item-details">
+                    <h4 class="cart-item-title">Leather Crossbody Bag</h4>
+                    <div class="cart-item-price">$79.99</div>
+                    <div class="cart-item-quantity">
+                        <button class="quantity-btn">-</button>
+                        <span>1</span>
+                        <button class="quantity-btn">+</button>
+                    </div>
+                </div>
+                <button class="cart-item-remove">✕</button>
+            </div>
+        </div>
+        
+        <div class="cart-total">
+            <div class="cart-total-row">
+                <span class="cart-total-label">Subtotal:</span>
+                <span class="cart-total-value">$259.97</span>
+            </div>
+            <div class="cart-total-row">
+                <span class="cart-total-label">Shipping:</span>
+                <span class="cart-total-value">Free</span>
+            </div>
+            <div class="cart-total-row">
+                <span class="cart-total-label">Total:</span>
+                <span class="cart-total-value">$259.97</span>
+            </div>
+        </div>
+        
+        <div class="cart-buttons">
+            <button class="cart-btn view-cart-btn">View Cart</button>
+            <button class="cart-btn checkout-btn">Checkout</button>
+        </div>
+    </div>
+    
+    <div class="overlay"></div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
